@@ -1,7 +1,6 @@
 const images = [...document.querySelectorAll('.image')];
 
 
-
 const popup = document.querySelector('.popup');
 const largeImage = document.querySelector('.large-image');
 const closeBtn = document.querySelector('.close-btn');
@@ -14,7 +13,7 @@ images.forEach((item, i) => {
 })
 
 const updateImage = (i) => {
-    let path = `img/img${i+1}.jpg`;
+    let path = `img/galaxy${i+1}.jpg`;
     largeImage.src = path;
 }
 
