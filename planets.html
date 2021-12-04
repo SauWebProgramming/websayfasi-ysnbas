@@ -5,31 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/gezegenlerStyle.css">
+    <link rel="stylesheet" href="css/planetsStyle.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="script/main.js"></script>
+
     <title>Gezegenler</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="space.html">Uzay</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="planets.html">Gezegenler</a>
-                    <a class="nav-link" href="stars.html">Yıldızlar</a>
-                    <a class="nav-link" href="galaxy.html">Galaksiler</a>
-                    <a class="nav-link" href="#">Uzay Konulu Filmler</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <my-header></my-header>
     <div class="container">
         <div class="text">
             <p><b>Güneş Sistemi İçerisinde Bulunan Gezegenler ve Özellikleri</b></p>
@@ -65,7 +51,7 @@
                         </p>
                     </div>
                 </div>
-                
+
                 <div class="card">
                     <img src="img/img2.jpg" class="card-img-top" alt="mars">
                     <div class="card-body">
@@ -182,7 +168,7 @@
                     </div>
                 </div>
 
-            
+
                 <div class="card">
                     <img src="img/img6.jpg" class="card-img-top" alt="uranus">
                     <div class="card-body">
@@ -210,73 +196,72 @@
                     </div>
                 </div>
                 <div class="card-group">
-                <div class="card">
-                    <img src="img/img7.jpg" class="card-img-top" alt="merkur">
-                    <div class="card-body">
-                        <h5 class="card-title">Merkür</h5>
+                    <div class="card">
+                        <img src="img/img7.jpg" class="card-img-top" alt="merkur">
+                        <div class="card-body">
+                            <h5 class="card-title">Merkür</h5>
 
-                        <p class="card-text">
-                            <li>
-                                Güneş’e en yakın gezegendir. Güneş’e olan mesafesi 57.909.000 kilometredir.
-                            </li>
-                            <li>
-                                Güneş’in etrafındaki yörünge turunu hızlı tamamlamasından dolayı ismini Antik Roma
-                                mitolojisinde
-                                “Haberci Tanrısı” olarak bilinen Merkür’den almaktadır.
-                            </li>
-                            <li>
-                                Güneş sisteminde bulunan gezegenler arasında en küçüğüdür.
+                            <p class="card-text">
+                                <li>
+                                    Güneş’e en yakın gezegendir. Güneş’e olan mesafesi 57.909.000 kilometredir.
+                                </li>
+                                <li>
+                                    Güneş’in etrafındaki yörünge turunu hızlı tamamlamasından dolayı ismini Antik Roma
+                                    mitolojisinde
+                                    “Haberci Tanrısı” olarak bilinen Merkür’den almaktadır.
+                                </li>
+                                <li>
+                                    Güneş sisteminde bulunan gezegenler arasında en küçüğüdür.
 
-                            </li>
-                            <li>
-                                Merkür gezegeninin uydusu yoktur.
-                            </li>
-                            <li>
-                                Güneş sisteminin en hızlı gezegenidir.
-                            </li>
-                            <li>
-                                Dünya’dan görüldüğü kadarıyla, yörüngesi etrafındaki hareketini 88 günde
-                                tamamlamaktadır.
-                            </li>
-                        </p>
+                                </li>
+                                <li>
+                                    Merkür gezegeninin uydusu yoktur.
+                                </li>
+                                <li>
+                                    Güneş sisteminin en hızlı gezegenidir.
+                                </li>
+                                <li>
+                                    Dünya’dan görüldüğü kadarıyla, yörüngesi etrafındaki hareketini 88 günde
+                                    tamamlamaktadır.
+                                </li>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/img8.jpg" class="card-img-top" alt="venus">
+                        <div class="card-body">
+                            <h5 class="card-title">Venüs</h5>
+
+                            <p class="card-text">
+                                <li>
+                                    Venüs gezegeni Güneş’e en yakın ikinci gezegendir.
+                                </li>
+                                <li>
+                                    Adını görünüşü nedeniyle Antik Roma Aşk ve Güzellik Tanrıçası Venüs’ten almıştır.
+                                </li>
+                                <li>
+                                    Venüs gezegeninin büyüklüğü neredeyse Dünya ile aynıdır.
+
+                                </li>
+                                <li>
+                                    Diğer gezegenlerin tamamı aynı yöne doğru dönerken Venüs ters bir yörünge
+                                    çizmektedir.
+                                </li>
+                                <li>
+                                    Güneş etrafındaki bir tam dönüşünü 224,7 Dünya gününde tamamlar.
+                                </li>
+                                <li>
+                                    Aralarındaki birçok benzerlikten dolayı “Dünya’nın ikizi” olarak da bilinmektedir.
+                                </li>
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img src="img/img8.jpg" class="card-img-top" alt="venus">
-                    <div class="card-body">
-                        <h5 class="card-title">Venüs</h5>
 
-                        <p class="card-text">
-                            <li>
-                                Venüs gezegeni Güneş’e en yakın ikinci gezegendir.
-                            </li>
-                            <li>
-                                Adını görünüşü nedeniyle Antik Roma Aşk ve Güzellik Tanrıçası Venüs’ten almıştır.
-                            </li>
-                            <li>
-                                Venüs gezegeninin büyüklüğü neredeyse Dünya ile aynıdır.
-
-                            </li>
-                            <li>
-                                Diğer gezegenlerin tamamı aynı yöne doğru dönerken Venüs ters bir yörünge çizmektedir.
-                            </li>
-                            <li>
-                                Güneş etrafındaki bir tam dönüşünü 224,7 Dünya gününde tamamlar.
-                            </li>
-                            <li>
-                                Aralarındaki birçok benzerlikten dolayı “Dünya’nın ikizi” olarak da bilinmektedir.
-                            </li>
-                        </p>
-                    </div>
-                </div>
             </div>
-            
         </div>
     </div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+<my-footer></my-footer>
 </body>
 
 </html>
