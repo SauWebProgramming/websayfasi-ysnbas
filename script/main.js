@@ -3,7 +3,7 @@ class myHeader extends HTMLElement {
         this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="space.html">Uzay</a>
+            <a class="navbar-brand" href="index.html">Uzay</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
                 aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@ class myFooter extends HTMLElement {
         <div class="container text-center text-md-start mt-5">
             <div class="text-center p-4" style="color: white">
                 © 2021 Copyright:
-                <a class="text-reset fw-bold" href="space.html" style="text-decoration: none;">Yasin Baş</a>
+                <a class="text-reset fw-bold" href="index.html" style="text-decoration: none;">Yasin Baş</a>
             </div>
         </div>
     </footer>
