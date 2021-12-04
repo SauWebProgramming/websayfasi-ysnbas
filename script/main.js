@@ -14,6 +14,7 @@ class myHeader extends HTMLElement {
                     <a class="nav-link" href="stars.html">Yıldızlar</a>
                     <a class="nav-link" href="galaxy.html">Galaksiler</a>
                     <a class="nav-link" href="spaceMovies.html">Uzay Konulu Filmler</a>
+                    <a class="nav-link" href="contactForm-and-map.html">İletişim</a>
                 </div>
             </div>
         </div>
